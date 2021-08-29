@@ -1,4 +1,4 @@
-// From data.js
+// from data.js
 var tableData = data;
 
 
@@ -44,7 +44,7 @@ function runEnter() {
   // Print the value to the console
   console.log(inputValue);
 
-  //FIlter datafrom selection
+  // Filter datafrom selection
   var filteredData = tableData.filter(tableData => tableData.datetime === inputValue);
 
   // Print the value to the console
